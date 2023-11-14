@@ -18,5 +18,9 @@ final router = GoRouter(
       path: '/buttons',
       builder: (context, state) => const ButtonsScreen(),
     ),
+    GoRoute(
+      path: '/progress',
+      builder: (context, state) => const ProgressScreen(),
+    ),
   ],
 );
